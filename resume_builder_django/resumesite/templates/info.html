@@ -12,13 +12,13 @@
 <body style="padding:20px;">
     <h1 class="mt-2" style="text-align:center;font-weight:bolder;color:steelblue;">Welcome to SAH Resume Builder!!!</h1>
     <hr class="mt-0 mb-4">
-<!--     <form method="POST">
+    <form method="POST">
         {% csrf_token %}
-        {{ form|crispy }}
+        {{ form }}
         <button type='Submit'>Submit</button>
         
-    </form> -->
-    {% crispy form form.helper %}
+    </form>
+
 
 </body>
 
